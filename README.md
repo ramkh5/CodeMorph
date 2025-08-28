@@ -2,6 +2,8 @@
 
 # Self-Healing Deployment Framework
 
+[🚀 How We Taught Code to Deploy Itself](https://www.linkedin.com/pulse/how-we-taught-code-deploy-itself-rami-alkhateeb-arywc)
+
 This project is a **Proof of Concept (PoC)**. We implemented it for Python scripts, but the principles are **language-agnostic** and can be applied to any language or runtime. The core idea is to take a piece of source code with its dependencies, validate it, wrap it into a microservice, and deploy it automatically — with **self-healing loops** that retry, fix, and redeploy until everything works.
 
 > Think of it like giving your code superpowers: it doesn’t just sit there waiting for you to fix every little bug, it fights back, heals itself, and eventually makes it into a live service.
